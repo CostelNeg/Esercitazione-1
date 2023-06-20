@@ -9,7 +9,6 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -116,6 +115,13 @@ hr {
   flex-direction: column;
   border-bottom: 1px solid rgb(219, 214, 214);
 }
+ .TredingOnMedium p{
+  color: rgba(230, 230, 230, 1);
+  font-size: 15px;
+  display: flex;
+  margin:0;
+  margin-left: 7em;
+ }
 .Treding-LineGrow {
   display: flex;
 
@@ -128,7 +134,7 @@ hr {
   background-color: black;
   border-radius: 30px;
   width: 20px;
-  margin-left: 5em;
+  margin-left: 8em;
   border: 1px solid black;
 }
 .Treding-LineGrow h2 {
@@ -150,6 +156,7 @@ hr {
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: 5em;
+  justify-content: space-around;
 }
 .Utente h4 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -166,8 +173,8 @@ hr {
   margin: 0;
   margin-left: 7em;
   font-weight: 600;
-  width: 400px;
-  font-size: 20px;
+  width: 350px;
+  font-size: 15px;
 }
 .utente-img {
   display: flex;
@@ -178,11 +185,11 @@ hr {
   margin-left: 2.5em;
   margin-right: 1em;
   color: rgba(230, 230, 230, 1);
-  font-size: 30px;
+  font-size: 20px;
 }
 .utente-img img {
   display: flex;
-  width: 35px;
+  width: 20px;
   border-radius: 50px;
 }
 main {
