@@ -115,13 +115,13 @@ hr {
   flex-direction: column;
   border-bottom: 1px solid rgb(219, 214, 214);
 }
- .TredingOnMedium p{
+.TredingOnMedium p {
   color: rgba(230, 230, 230, 1);
   font-size: 15px;
   display: flex;
-  margin:0;
+  margin: 0;
   margin-left: 7em;
- }
+}
 .Treding-LineGrow {
   display: flex;
 
@@ -196,10 +196,12 @@ main {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .Main-div {
   display: flex;
-  flex-direction: column;
+
+  flex-direction: row;
 }
 .News {
   display: flex;
@@ -255,4 +257,77 @@ main p {
   margin-top: 0;
   color: rgb(189, 184, 184);
   font-weight: 400;
+}
+.DiscoverMore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top:1em;
+  height: fit-content;
+  width: 400px;
+  margin-left: 3em
+}
+.DiscoverMore h3 {
+  font-size: medium;
+  font-weight: 500;
+}
+.Interesi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+.InsideInteresi {
+  display: flex;
+  margin: 4px;
+  width: 100px;
+  color: black;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: rgba(242, 242, 242, 1);
+}
+.AllNews {
+  display: flex;
+  flex-direction: column;
+}
+.linkInteresi a{
+  display: flex;
+  text-decoration: none;
+  color:rgb(135, 209, 24);
+  margin-top: 1em;
+  border-bottom: 0.7px solid rgb(194, 192, 192);
+  width: 400px;
+
+}
+.linkInterese{
+  color:green;
+  font-weight: 400;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.AboutUs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.AboutUs-P{
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(189, 184, 184);
+  margin: 0;
+  margin-top: 1em;
+  display: flex;
+  margin-right: 20px;
+}
+.AboutUs a{
+  text-decoration: none; 
 }
