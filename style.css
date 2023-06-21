@@ -1,6 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .header-div {
   display: inline-flex;
@@ -58,7 +62,7 @@ hr {
 }
 .SottoHr {
   display: flex;
-  height: 350px;
+  height: 400px;
   background-color: #ffc017;
   justify-content: flex-start;
   flex-direction: row;
@@ -121,6 +125,10 @@ hr {
   display: flex;
   margin: 0;
   margin-left: 10em;
+}
+.star{
+  display: flex;
+  width: 15px;
 }
 .Treding-LineGrow {
   display: flex;
@@ -272,7 +280,8 @@ main p {
   margin-top:1em;
   height: fit-content;
   width: 400px;
-  margin-left: 3em
+  position: sticky;
+  top:4em;
 }
 .DiscoverMore h3 {
   font-size: medium;
@@ -298,6 +307,7 @@ main p {
 .AllNews {
   display: flex;
   flex-direction: column;
+  margin-right: 14em;
 }
 .linkInteresi a{
   display: flex;
@@ -312,12 +322,7 @@ main p {
   color:green;
   font-weight: 400;
 }
-body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 .AboutUs{
   display: flex;
   flex-direction: row;
